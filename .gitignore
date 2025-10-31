@@ -1,0 +1,36 @@
+# 🧠 General
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+# 🐳 Docker
+**/.env
+**/docker-compose.override.yml
+**/tmp/
+**/data/
+**/volumes/
+
+# 🐘 Laravel / PHP (si metes StayFlow u otros proyectos)
+vendor/
+.env
+storage/
+bootstrap/cache/
+node_modules/
+
+# 🐍 Python (si haces scripts)
+__pycache__/
+*.pyc
+*.pyo
+
+# 💻 VSCode / IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# 🪣 Sistema
+*.bak
+*.tar
+*.zip
+*.rar
